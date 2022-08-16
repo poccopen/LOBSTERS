@@ -1,13 +1,15 @@
 # LOBSTERS
 **L**eague **O**f **B**ackbone plasmid vector **S**eries **T**o **E**xpand the **R**ange of **S**election markers for genome editing in <I>Saccharomyces cerevisiae</I>
 
-# An expanded series of genome-editing plasmid vectors for budding yeast.
+## An expanded series of genome-editing plasmid vectors for budding yeast.
 Features of the plasmid series are:
 - Three Cas systems (SpCas9, SaCas9, and enAsCas12a) are available.
 - A Cas gene and the cognate sgRNA/crRNA gene are encoded on a single centromeric plasmid.
 - The target sequence can be inserted by the Golden Gate Assembly.
 - The expression of the Cas gene and/or the sgRNA/crRNA gene are under the control of the <I>GAL1</I> promoter.
 - Six marker genes (<I>KanMX</I>, <I>HphMX</I>, <I>NatMX</I>, <I>HIS3</I>, <I>LEU2</I>, and <I>URA3</I>) are available.
+
+![Schematic](https://github.com/poccopen/LOBSTERS/blob/main/pLOBSTERs_schematic.png)
 
 ## Available plasmids
 |  Number  | Plasmid name                 | Cas type     |  Marker gene  |
