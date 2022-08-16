@@ -1,7 +1,7 @@
 # LOBSTERS
-League Of Backbone plasmid vector Series To Expand the Range of Selection markers  (LOBSTERS) for genome editing in budding yeast
+League Of Backbone plasmid vector Series To Expand the Range of Selection markers  (LOBSTERS) for genome editing in <I>Saccharomyces cerevisiae</I>
 
-# A series of genome-editing plasmid vectors for <I>Saccharomyces cerevisiae</I>.
+# An expanded series of genome-editing plasmid vectors for budding yeast.
 Features of the plasmid series are:
 - Three Cas systems (SpCas9, SaCas9, and enAsCas12a) are available.
 - A Cas gene and the cognate sgRNA/crRNA gene are encoded on a single centromeric plasmid.
