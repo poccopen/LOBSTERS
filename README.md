@@ -1,5 +1,5 @@
 # LOBSTERS
-<u>L</u>eague <u>O</u>f <u>B</u>ackbone plasmid vector <u>S</u>eries <u>T</u>o <u>E</u>xpand the <u>R</u>ange of <u>S</u>election markers for genome editing in <I>Saccharomyces cerevisiae</I>
+**L**eague **O**f **B**ackbone plasmid vector **S**eries **T**o **E**xpand the **R**ange of **S**election markers for genome editing in <I>Saccharomyces cerevisiae</I>
 
 # An expanded series of genome-editing plasmid vectors for budding yeast.
 Features of the plasmid series are:
