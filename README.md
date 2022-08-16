@@ -10,11 +10,14 @@ Features of the plasmid series are:
 - Six marker genes (<I>URA3</I>, <I>LEU2</I>, <I>HIS3</I>, <I>KanMX</I>, <I>HphMX</I>, and <I>NatMX</I>)are available.
 
 ## Available plasmids
-|  Number  |  Cas type    |  Promoter for Cas gene  |  Promoter for sgRNA/crRNA  |  Terminator for sgRNA/crRNA  |  Plasmid type  |  Marker gene  |
-| -------- | ------------ | ----------------------- | -------------------------- | ---------------------------- | -------------- | ------------- |
-|  16-15   |  SpCas9      |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    | <I> URA3 </I> |
-|  16-16   |  enAsCas12a  |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    | <I> URA3 </I> |
-|  17-31   |  SaCas9      |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    | <I> URA3 </I> |
+|  Number  |  Cas type    |  Marker gene  |  Promoter for Cas gene  |  Promoter for sgRNA/crRNA  |  Terminator for sgRNA/crRNA  |  Plasmid type  |
+| -------- | ------------ | ------------- | ----------------------- | -------------------------- | ---------------------------- | -------------- |
+|  16-15   |  SpCas9      | <I> URA3 </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
+|  17-31   |  SaCas9      | <I> URA3 </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
+|  16-16   |  enAsCas12a  | <I> URA3 </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
+|  16-15   |  SpCas9      | <I> LEU2 </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
+|  17-31   |  SaCas9      | <I> LEU2 </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
+|  16-16   |  enAsCas12a  | <I> LEU2 </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
 
 Plasmid sequence data are available from the links below:
 
