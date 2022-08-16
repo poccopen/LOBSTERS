@@ -35,11 +35,7 @@ Features of the plasmid series are:
 
 Plasmid sequence data are available from the links below:
 
-![Plasmid sequences in SnapGene format](https://github.com/poccopen/Genome_editing_plasmid_for_budding_yeast/tree/master/Plasmid_sequence_files%20(SnapGene))
-
-![Plasmid sequences in GenBank format](https://github.com/poccopen/Genome_editing_plasmid_for_budding_yeast/tree/master/Plasmid_sequence_files%20(GenBank))
-
-![Plasmid sequences in plain text format](https://github.com/poccopen/Genome_editing_plasmid_for_budding_yeast/tree/master/Plasmid_sequence_files%20(Plain%20text))
+![Plasmid sequences in SnapGene format](https://github.com/poccopen/LOBSTERS/tree/main/pLOBSTERs_SnapGene)
 
 ## GUI application for oligo DNA design
 Oligo DNA sequences for the Golden Gate Assembly can be designed by a python script (graphical user interface version).
