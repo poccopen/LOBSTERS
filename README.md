@@ -7,17 +7,29 @@ Features of the plasmid series are:
 - A Cas gene and the cognate sgRNA/crRNA gene are encoded on a single centromeric plasmid.
 - The target sequence can be inserted by the Golden Gate Assembly.
 - The expression of the Cas gene and/or the sgRNA/crRNA gene are under the control of the <I>GAL1</I> promoter.
-- Six marker genes (<I>URA3</I>, <I>LEU2</I>, <I>HIS3</I>, <I>KanMX</I>, <I>HphMX</I>, and <I>NatMX</I>)are available.
+- Six marker genes (<I>KanMX</I>, <I>HphMX</I>, <I>NatMX</I>, <I>HIS3</I>, <I>LEU2</I>, and <I>URA3</I>) are available.
 
 ## Available plasmids
 |  Number  |  Cas type    |  Marker gene  |  Promoter for Cas gene  |  Promoter for sgRNA/crRNA  |  Terminator for sgRNA/crRNA  |  Plasmid type  |
 | -------- | ------------ | ------------- | ----------------------- | -------------------------- | ---------------------------- | -------------- |
+|  25-27   |  SpCas9      | <I>KanMX </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
+|  25-28   |  SpCas9      | <I>HphMX </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
+|  25-29   |  SpCas9      | <I>NatMX </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
+|  25-30   |  SpCas9      | <I> HIS3 </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
+|  25-31   |  SpCas9      | <I> LEU2 </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
 |  16-15   |  SpCas9      | <I> URA3 </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
+|  25-32   |  SaCas9      | <I>KanMX </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
+|  25-33   |  SaCas9      | <I>HphMX </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
+|  25-34   |  SaCas9      | <I>NatMX </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
+|  25-35   |  SaCas9      | <I> HIS3 </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
+|  25-36   |  SaCas9      | <I> LEU2 </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
 |  17-31   |  SaCas9      | <I> URA3 </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
+|  25-37   |  enAsCas12a  | <I>KanMX </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
+|  25-38   |  enAsCas12a  | <I>HphMX </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
+|  25-39   |  enAsCas12a  | <I>NatMX </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
+|  25-40   |  enAsCas12a  | <I> HIS3 </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
+|  25-41   |  enAsCas12a  | <I> LEU2 </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
 |  16-16   |  enAsCas12a  | <I> URA3 </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
-|  16-15   |  SpCas9      | <I> LEU2 </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
-|  17-31   |  SaCas9      | <I> LEU2 </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
-|  16-16   |  enAsCas12a  | <I> LEU2 </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
 
 Plasmid sequence data are available from the links below:
 
