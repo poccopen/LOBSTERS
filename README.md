@@ -1,5 +1,5 @@
 # LOBSTERS
-League Of Backbone plasmid vector Series To Expand the Range of Selection markers  (LOBSTERS) for genome editing in <I>Saccharomyces cerevisiae</I>
+League Of Backbone plasmid vector Series To Expand the Range of Selection markers for genome editing in <I>Saccharomyces cerevisiae</I>
 
 # An expanded series of genome-editing plasmid vectors for budding yeast.
 Features of the plasmid series are:
