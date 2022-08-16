@@ -10,26 +10,26 @@ Features of the plasmid series are:
 - Six marker genes (<I>KanMX</I>, <I>HphMX</I>, <I>NatMX</I>, <I>HIS3</I>, <I>LEU2</I>, and <I>URA3</I>) are available.
 
 ## Available plasmids
-|  Number  |  Cas type    |  Marker gene  |  Promoter for Cas gene  |  Promoter for sgRNA/crRNA  |  Terminator for sgRNA/crRNA  |  Plasmid type  |
-| -------- | ------------ | ------------- | ----------------------- | -------------------------- | ---------------------------- | -------------- |
-|  25-27   |  SpCas9      | <I>KanMX </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
-|  25-28   |  SpCas9      | <I>HphMX </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
-|  25-29   |  SpCas9      | <I>NatMX </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
-|  25-30   |  SpCas9      | <I> HIS3 </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
-|  25-31   |  SpCas9      | <I> LEU2 </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
-|  16-15   |  SpCas9      | <I> URA3 </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
-|  25-32   |  SaCas9      | <I>KanMX </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
-|  25-33   |  SaCas9      | <I>HphMX </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
-|  25-34   |  SaCas9      | <I>NatMX </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
-|  25-35   |  SaCas9      | <I> HIS3 </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
-|  25-36   |  SaCas9      | <I> LEU2 </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
-|  17-31   |  SaCas9      | <I> URA3 </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
-|  25-37   |  enAsCas12a  | <I>KanMX </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
-|  25-38   |  enAsCas12a  | <I>HphMX </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
-|  25-39   |  enAsCas12a  | <I>NatMX </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
-|  25-40   |  enAsCas12a  | <I> HIS3 </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
-|  25-41   |  enAsCas12a  | <I> LEU2 </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
-|  16-16   |  enAsCas12a  | <I> URA3 </I> |  <I> pGAL1 </I>         | <I> pGAL1 </I>             | <I> tCYC1 </I>               | Centromeric    |
+|  Number  | Plasmid name                 | Cas type     |  Marker gene  |
+| -------- | ---------------------------- | ------------ | ------------- |
+|  25-27   | pLOBSTER-SpCas9-Kan(epmty)   |  SpCas9      | <I>KanMX </I> |
+|  25-28   | pLOBSTER-SpCas9-Hyg(epmty)   |  SpCas9      | <I>HphMX </I> |
+|  25-29   | pLOBSTER-SpCas9-Nat(epmty)   |  SpCas9      | <I>NatMX </I> |
+|  25-30   | pLOBSTER-SpCas9-His(epmty)   |  SpCas9      | <I> HIS3 </I> |
+|  25-31   | pLOBSTER-SpCas9-Leu(epmty)   |  SpCas9      | <I> LEU2 </I> |
+|  16-15   | pLOBSTER-SpCas9-Ura(epmty)   |  SpCas9      | <I> URA3 </I> |
+|  25-32   | pLOBSTER-SaCas9-Kan(epmty)   |  SaCas9      | <I>KanMX </I> |
+|  25-33   | pLOBSTER-SaCas9-Hyg(epmty)   |  SaCas9      | <I>HphMX </I> |
+|  25-34   | pLOBSTER-SaCas9-Nat(epmty)   |  SaCas9      | <I>NatMX </I> |
+|  25-35   | pLOBSTER-SaCas9-HIS(epmty)   |  SaCas9      | <I> HIS3 </I> |
+|  25-36   | pLOBSTER-SaCas9-Leu(epmty)   |  SaCas9      | <I> LEU2 </I> |
+|  17-31   | pLOBSTER-SaCas9-Ura(epmty)   |  SaCas9      | <I> URA3 </I> |
+|  25-37   |pLOBSTER-enAsCas12a-Kan(epmty)|  enAsCas12a  | <I>KanMX </I> |
+|  25-38   |pLOBSTER-enAsCas12a-Hyg(epmty)|  enAsCas12a  | <I>HphMX </I> |
+|  25-39   |pLOBSTER-enAsCas12a-Nat(epmty)|  enAsCas12a  | <I>NatMX </I> |
+|  25-40   |pLOBSTER-enAsCas12a-HIS(epmty)|  enAsCas12a  | <I> HIS3 </I> |
+|  25-41   |pLOBSTER-enAsCas12a-Leu(epmty)|  enAsCas12a  | <I> LEU2 </I> |
+|  16-16   |pLOBSTER-enAsCas12a-Ura(epmty)|  enAsCas12a  | <I> URA3 </I> |
 
 Plasmid sequence data are available from the links below:
 
@@ -56,8 +56,3 @@ python sgRNA_crRNA_oligo_designer_GUI.py
 
 A binary version is available (only for Windows users).
 - sgRNA_crRNA_oligo_designer_GUI.exe
-
-
-## Scripts to identify "editable" nucleotides and "editable" ORFs at the 5' end in the budding yeast reference genome
-- Editable_fraction_of_yeast_genome.py
-- ORFs_editable_at_the_5_ends.py
