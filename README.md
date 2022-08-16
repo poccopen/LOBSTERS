@@ -21,13 +21,13 @@ Features of the plasmid series are:
 |  25-32   | pLOBSTER-SaCas9-Kan(empty)   |  SaCas9      | <I>KanMX </I> |
 |  25-33   | pLOBSTER-SaCas9-Hyg(empty)   |  SaCas9      | <I>HphMX </I> |
 |  25-34   | pLOBSTER-SaCas9-Nat(empty)   |  SaCas9      | <I>NatMX </I> |
-|  25-35   | pLOBSTER-SaCas9-HIS(empty)   |  SaCas9      | <I> HIS3 </I> |
+|  25-35   | pLOBSTER-SaCas9-His(empty)   |  SaCas9      | <I> HIS3 </I> |
 |  25-36   | pLOBSTER-SaCas9-Leu(empty)   |  SaCas9      | <I> LEU2 </I> |
 |  17-31   | pLOBSTER-SaCas9-Ura(empty)   |  SaCas9      | <I> URA3 </I> |
 |  25-37   |pLOBSTER-enAsCas12a-Kan(empty)|  enAsCas12a  | <I>KanMX </I> |
 |  25-38   |pLOBSTER-enAsCas12a-Hyg(empty)|  enAsCas12a  | <I>HphMX </I> |
 |  25-39   |pLOBSTER-enAsCas12a-Nat(empty)|  enAsCas12a  | <I>NatMX </I> |
-|  25-40   |pLOBSTER-enAsCas12a-HIS(empty)|  enAsCas12a  | <I> HIS3 </I> |
+|  25-40   |pLOBSTER-enAsCas12a-His(empty)|  enAsCas12a  | <I> HIS3 </I> |
 |  25-41   |pLOBSTER-enAsCas12a-Leu(empty)|  enAsCas12a  | <I> LEU2 </I> |
 |  16-16   |pLOBSTER-enAsCas12a-Ura(empty)|  enAsCas12a  | <I> URA3 </I> |
 
