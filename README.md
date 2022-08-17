@@ -33,9 +33,7 @@ Features of the plasmid series are:
 |  25-41   |pLOBSTER-enAsCas12a-Leu(empty)|  enAsCas12a  | <I> LEU2 </I> |
 |  16-16   |pLOBSTER-enAsCas12a-Ura(empty)|  enAsCas12a  | <I> URA3 </I> |
 
-Plasmid sequence data are available from the links below:
-
-![Plasmid sequences in SnapGene format](https://github.com/poccopen/LOBSTERS/tree/main/pLOBSTERs_SnapGene)
+Plasmid sequence data are available from the link: [Plasmid sequences in SnapGene format](https://github.com/poccopen/LOBSTERS/tree/main/pLOBSTERs_SnapGene)
 
 ## An application for oligo DNA design
 ### For python users (on Windows, MacOS, Linux, etc.)
