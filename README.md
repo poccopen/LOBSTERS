@@ -1,4 +1,4 @@
-# LOBSTERS
+## LOBSTERS
 **L**eague **O**f **B**ackbone plasmid vector **S**eries **T**o **E**xpand the **R**ange of **S**election markers for genome editing in <I>Saccharomyces cerevisiae</I>
 
 ## An expanded series of genome-editing plasmid vectors for budding yeast.
@@ -37,20 +37,17 @@ Plasmid sequence data are available from the links below:
 
 ![Plasmid sequences in SnapGene format](https://github.com/poccopen/LOBSTERS/tree/main/pLOBSTERs_SnapGene)
 
-## GUI application for oligo DNA design
-Oligo DNA sequences for the Golden Gate Assembly can be designed by a python script (graphical user interface version).
-- sgRNA_crRNA_oligo_designer_GUI.py
+## An application for oligo DNA design
+### For python users
+Oligo DNA sequences for the Golden Gate Assembly can be designed by a python script. ![gRNA_oligo_designer_for_pLOBSTERs.py](https://github.com/poccopen/LOBSTERS/tree/main/gRNA_oligo_designer_for_pLOBSTERs.py)
 
-PySimpleGUI is required to run the script.
+PySimpleGUI is required to run the script. https://pysimplegui.readthedocs.io/en/latest/
 
-https://pysimplegui.readthedocs.io/en/latest/
+[Usage] `python gRNA_oligo_designer_for_pLOBSTERs.py`
 
+### For windows users
+A binary version of the python script is available. ![gRNA_oligo_designer_for_pLOBSTERs.exe](https://www.dropbox.com/s/k9lh0sh21y4bi90/gRNA_oligo_designer_for_pLOBSTERs.exe?dl=0)
 
-```
-python sgRNA_crRNA_oligo_designer_GUI.py
-```
+[Usage] Simply double-click the .exe file.
 
-![GUI](https://github.com/poccopen/Genome_editing_plasmid_for_budding_yeast/blob/master/images/sgRNA_crRNA_designer_GUI.png)
-
-A binary version is available (only for Windows users).
-- sgRNA_crRNA_oligo_designer_GUI.exe
+![Screen shot](https://github.com/poccopen/LOBSTERS/tree/main/gRNA_oligo_designer_for_pLOBSTERs.png)
