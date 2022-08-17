@@ -38,16 +38,16 @@ Plasmid sequence data are available from the links below:
 ![Plasmid sequences in SnapGene format](https://github.com/poccopen/LOBSTERS/tree/main/pLOBSTERs_SnapGene)
 
 ## An application for oligo DNA design
-### For python users
-Oligo DNA sequences for the Golden Gate Assembly can be designed by a python script. ![gRNA_oligo_designer_for_pLOBSTERs.py](https://github.com/poccopen/LOBSTERS/tree/main/gRNA_oligo_designer_for_pLOBSTERs.py)
+### For python users (on Windows, MacOS, Linux, etc.)
+Oligo DNA sequences for the Golden Gate Assembly can be designed by a python script. [gRNA_oligo_designer_for_pLOBSTERs.py](https://github.com/poccopen/LOBSTERS/tree/main/gRNA_oligo_designer_for_pLOBSTERs.py)
 
 PySimpleGUI is required to run the script. https://pysimplegui.readthedocs.io/en/latest/
 
 [Usage] `python gRNA_oligo_designer_for_pLOBSTERs.py`
 
-### For windows users
-A binary version of the python script is available. ![gRNA_oligo_designer_for_pLOBSTERs.exe](https://www.dropbox.com/s/k9lh0sh21y4bi90/gRNA_oligo_designer_for_pLOBSTERs.exe?dl=0)
+### For Windows users
+A binary version of the python script is available only for Windows. [gRNA_oligo_designer_for_pLOBSTERs.exe](https://www.dropbox.com/s/k9lh0sh21y4bi90/gRNA_oligo_designer_for_pLOBSTERs.exe?dl=0)
 
 [Usage] Simply double-click the .exe file.
 
-![Screen shot](https://github.com/poccopen/LOBSTERS/tree/main/gRNA_oligo_designer_for_pLOBSTERs.png)
+![Screen shot](https://github.com/poccopen/LOBSTERS/blob/main/gRNA_oligo_designer_for_pLOBSTERs.png)
