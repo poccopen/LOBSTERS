@@ -51,11 +51,9 @@ import PySimpleGUI as sg
 # ラジオボタン周りのフレームの設定
 # Set up frames for radio buttons
 frame1 = [
-            #[sg.Radio('SpCas9 (9-33, 11-79, 16-15, 25-27, 25-28, 25-29, 25-30, 25-31, 30-65, 32-21, 32-22, 32-23, 32-24, 32-25)', 1, key='-SpCas9-', default=True)],
             [sg.Radio('SpCas9 (25-27, 25-28, 25-29, 25-30, 25-31, 16-15)', 1, key='-SpCas9-', default=True)],
             [sg.Radio('SaCas9 (25-32, 25-33, 25-34, 25-35, 25-36, 17-31)', 1, key='-SaCas9-')],
             [sg.Radio('enAsCas12a (25-37, 25-38, 25-39, 25-40, 25-41, 16-16)', 1, key='-enAsCas12a-')],
-            #[sg.Radio('Cas12c (33-22)', 1, key='-Cas12c-')]
             ]
 
 # レイアウト
@@ -85,56 +83,6 @@ while True:
     # 'Design oligo DNA sequences'ボタンが押されたときの動作
     # Action when the 'Design oligo DNA sequences' button is pressed
     if event in ('Design oligo DNA sequences'):
-        """
-        # ラジオボタン'SpCas9 + pSNR52-sgRNA (plasmid 15-13)'が押されていたときの動作
-        if values['-SpCas9_pSNR52-'] == True:
-
-            # 変数 HHc
-            # hammerhead ribozymeの後半の37塩基（固定配列）
-            HHc = 'CTGATGAGTCCGTGAGGACGAAACGAGTAAGCTCGTC'
-
-            # 変数 GGA5
-            # Golden Gate Assembly向けにFwdオリゴの5'末に付加する配列
-            GGA5 = 'GATC'
-
-            # 変数 GGA3
-            # Golden Gate Assembly向けにRevオリゴの5'末に付加する配列
-            GGA3 = 'AAAC'
-
-            # 変数 Header
-            # 最初の行に出力する文字列
-            Header = 'Target name\tTarget seq\tHH + Target seq\tFwd seq for GGA (15-13)\tRev seq for GGA (15-13)'
-            # 変数 Target_name
-            # ターゲット配列名
-            Target_name = ''
-
-            # 変数 Target
-            # ターゲット配列
-            Target = ''
-
-            # 入力テキストボックス内のテキストを読み出す
-            input_text = values['textbox1']
-
-            # 出力テキストボックスにヘッダーを書き込む
-            window['textbox2'].print(Header)
-
-            # 入力テキストボックス内のテキストを1行ごとに分割し、オリゴDNA配列をデザインする
-            lines = input_text.split('\n')
-            for line in lines:
-                line_strip = line.strip()
-                line_split = line_strip.split()
-                if len(line_split) == 2:
-                    Target_name = line_split[0]
-                    Target = line_split[1]
-                    # 変数 HHv
-                    # hammerhead ribozymeの最初の6塩基（後続の配列に依存して変化する）
-                    HHv = HHvariable(Target)
-                    HH = HHv + HHc
-                    HH_Target = HH + Target
-                    F_seq_GGA = GGA5 + HH_Target
-                    R_seq_GGA = GGA3 + complement_seq(HH_Target)
-                    window['textbox2'].print(Target_name + '\t'+ Target +'\t' + HH_Target + '\t' + F_seq_GGA + '\t' + R_seq_GGA)
-           """
 
         # ラジオボタン'SpCas9'が押されていたときの動作
         # Action when the radio button 'SpCas9' is pressed
@@ -230,34 +178,7 @@ while True:
                     F_seq_GGA = GGA5 + HH_Target
                     R_seq_GGA = GGA3 + complement_seq(HH_Target)
                     window['textbox2'].print(Target_name + '\t'+ Target +'\t' + HH_Target + '\t' + F_seq_GGA + '\t' + R_seq_GGA)
-
-        """
-        # ラジオボタン'Cas12c'が押されていたときの動作
-        # Action when the radio button 'Cas12c' is pressed
-        if values['-Cas12c-'] ==True:
-            HHv = ''
-            HHc = ''
-            GGA5 = 'GAGG'
-            GGA3 = 'TGCT'
-            Header = 'Target name\tTarget seq\tHH + Target seq\tFwd seq for GGA (Cas12c)\tRev seq for GGA (Cas12c)'
-            Target_name = ''
-            Target = ''
-            input_text = values['textbox1']
-            window['textbox2'].print(Header)
-            lines = input_text.split('\n')
-            for line in lines:
-                line_strip = line.strip()
-                line_split = line_strip.split()
-                if len(line_split) == 2:
-                    Target_name = line_split[0]
-                    Target = line_split[1]
-                    HH = HHv + HHc
-                    HH_Target = HH + Target
-                    F_seq_GGA = GGA5 + HH_Target
-                    R_seq_GGA = GGA3 + complement_seq(HH_Target)
-                    window['textbox2'].print(Target_name + '\t'+ Target +'\t' + HH_Target + '\t' + F_seq_GGA + '\t' + R_seq_GGA)
-        """
-        
+    
     # 'Clear the input'ボタンが押されたときの動作
     # Action when the 'Clear the input' button is pressed
     if event in ('Clear the input'):
