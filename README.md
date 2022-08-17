@@ -9,8 +9,6 @@ Features of the plasmid series are:
 - The expression of the Cas gene and/or the sgRNA/crRNA gene are under the control of the <I>GAL1</I> promoter.
 - Six marker genes (<I>KanMX</I>, <I>HphMX</I>, <I>NatMX</I>, <I>HIS3</I>, <I>LEU2</I>, and <I>URA3</I>) are available.
 
-![Schematic](https://github.com/poccopen/LOBSTERS/blob/main/pLOBSTERs_schematic.png)
-
 ## Available plasmids
 |  Number  | Plasmid name                 | Cas type     |  Marker gene  |
 | -------- | ---------------------------- | ------------ | ------------- |
