@@ -1,7 +1,7 @@
 ## LOBSTERS
 **L**eague **O**f **B**ackbone plasmid vector **S**eries **T**o **E**xpand the **R**ange of **S**election markers for genome editing in <I>Saccharomyces cerevisiae</I>
 
-## An expanded series of genome-editing plasmid vectors for budding yeast.
+## An expanded series of genome editing plasmid vectors for budding yeast.
 Features of the plasmid series are:
 - Three Cas systems (SpCas9, SaCas9, and enAsCas12a) are available.
 - A Cas gene and the cognate sgRNA/crRNA gene are encoded on a single centromeric plasmid.
