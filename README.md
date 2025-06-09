@@ -7,7 +7,7 @@ Features of the plasmid series are:
 - A Cas gene and the cognate sgRNA/crRNA gene are encoded on a single centromeric plasmid.
 - The target sequence can be inserted by the Golden Gate Assembly.
 - The expression of the Cas gene and/or the sgRNA/crRNA gene are under the control of the <I>GAL1</I> promoter.
-- Six marker genes (<I>KanMX</I>, <I>HphMX</I>, <I>NatMX</I>, <I>HIS3</I>, <I>LEU2</I>, and <I>URA3</I>) are available.
+- Seven marker genes (<I>KanMX</I>, <I>HphMX</I>, <I>NatMX</I>, <I>HIS3</I>, <I>TRP1</I>, <I>LEU2</I>, and <I>URA3</I>) are available.
 
 ## Available plasmids
 |  Number  | Plasmid name                 | Cas type     |  Marker gene  |
