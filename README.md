@@ -52,4 +52,7 @@ You can access the application directly via the following link:
 3. Click the **"Design oligo DNA sequences"** button.
 4. The designed forward and reverse oligo sequences will appear in the result field. You can directly copy and paste the output lines into spreadsheet applications like Microsoft Excel for oligo ordering.
 
-![Screen shot](gRNA_oligo_designer_for_pLOBSTERs_260525_example.png)
+### 📸 Screenshot
+Below is a screenshot example of the application interface showing the input format and designed oligo results:
+
+![Screenshot of the web application interface](gRNA_oligo_designer_for_pLOBSTERs_260525_example.png)
