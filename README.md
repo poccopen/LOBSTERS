@@ -26,29 +26,30 @@ Features of the plasmid series are:
 |  25-36   | pLOBSTER-SaCas9-Leu(empty)   |  SaCas9      | <I> LEU2 </I> |
 |  17-31   | pLOBSTER-SaCas9-Ura(empty)   |  SaCas9      | <I> URA3 </I> |
 |  39-48   | pLOBSTER-SaCas9-Trp(empty)   |  SaCas9      | <I> TRP1 </I> |
-|  25-37   |pLOBSTER-enAsCas12a-Kan(empty)|  enAsCas12a  | <I>KanMX </I> |
-|  25-38   |pLOBSTER-enAsCas12a-Hyg(empty)|  enAsCas12a  | <I>HphMX </I> |
-|  25-39   |pLOBSTER-enAsCas12a-Nat(empty)|  enAsCas12a  | <I>NatMX </I> |
-|  25-40   |pLOBSTER-enAsCas12a-His(empty)|  enAsCas12a  | <I> HIS3 </I> |
-|  25-41   |pLOBSTER-enAsCas12a-Leu(empty)|  enAsCas12a  | <I> LEU2 </I> |
-|  16-16   |pLOBSTER-enAsCas12a-Ura(empty)|  enAsCas12a  | <I> URA3 </I> |
-|  39-47   |pLOBSTER-enAsCas12a-Trp(empty)|  enAsCas12a  | <I> TRP1 </I> |
+|  25-37   | pLOBSTER-enAsCas12a-Kan(empty)|  enAsCas12a  | <I>KanMX </I> |
+|  25-38   | pLOBSTER-enAsCas12a-Hyg(empty)|  enAsCas12a  | <I>HphMX </I> |
+|  25-39   | pLOBSTER-enAsCas12a-Nat(empty)|  enAsCas12a  | <I>NatMX </I> |
+|  25-40   | pLOBSTER-enAsCas12a-His(empty)|  enAsCas12a  | <I> HIS3 </I> |
+|  25-41   | pLOBSTER-enAsCas12a-Leu(empty)|  enAsCas12a  | <I> LEU2 </I> |
+|  16-16   | pLOBSTER-enAsCas12a-Ura(empty)|  enAsCas12a  | <I> URA3 </I> |
+|  39-47   | pLOBSTER-enAsCas12a-Trp(empty)|  enAsCas12a  | <I> TRP1 </I> |
 
 Plasmid sequence data are available from the link: [Plasmid sequences in SnapGene format](https://github.com/poccopen/LOBSTERS/tree/main/pLOBSTERs_SnapGene)
 
-## An application for oligo DNA design
-### For Python users (on Windows, MacOS, Linux, etc.)
-Oligo DNA sequences for the Golden Gate Assembly can be designed by a Python script. [gRNA_oligo_designer_for_pLOBSTERs.py](https://github.com/poccopen/LOBSTERS/tree/main/gRNA_oligo_designer_for_pLOBSTERs.py)
+## Web application for gRNA oligo DNA design
+Oligo DNA sequences for Golden Gate Assembly (GGA) can be automatically designed using our web-based tool. It runs entirely on the client side (inside your web browser) via PyScript/WebAssembly, meaning **no local installation or external tool download is required**. Your sequence data is safe and never uploaded to any external server.
 
-PySimpleGUI is required to run the script. https://pysimplegui.readthedocs.io/en/latest/
+### 🚀 Online Access (GitHub Pages)
+You can access the application directly via the following link:
+**[👉 Run gRNA Oligo Designer Online](https://poccopen.github.io/LOBSTERS/)**
 
-[Usage] `python gRNA_oligo_designer_for_pLOBSTERs.py`
+*(Note: If you prefer a completely offline environment, you can also download the `gRNA_oligo_designer_for_pLOBSTERs_260525.html` file from this repository and open it directly in any web browser.)*
 
-### For Windows users (no Python installation required)
-A binary version of the Python script is available only for Windows. [gRNA_oligo_designer_for_pLOBSTERs.exe](https://www.dropbox.com/s/k9lh0sh21y4bi90/gRNA_oligo_designer_for_pLOBSTERs.exe?dl=0)
+### 🛠️ How to Use
+1. Input your target sequence data into the input text box.
+   - The data must be formatted as **tab-separated** lines, with a single pair of a target name and a sequence per row.
+2. Select your target **Cas system** from the radio buttons (`SpCas9`, `SaCas9`, or `enAsCas12a`).
+3. Click the **"Design oligo DNA sequences"** button.
+4. The designed forward and reverse oligo sequences will appear in the result field. You can directly copy and paste the output lines into spreadsheet applications like Microsoft Excel for oligo ordering.
 
-You don't need to install Python to run this version.
-
-[Usage] Simply double-click the .exe file.
-
-![Screen shot](https://github.com/poccopen/LOBSTERS/blob/main/gRNA_oligo_designer_for_pLOBSTERs.png)
+![Screen shot](gRNA_oligo_designer_for_pLOBSTERs_260525_example.png)
