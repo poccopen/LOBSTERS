@@ -39,20 +39,20 @@ Plasmid sequence data are available from the link: [Plasmid sequences in SnapGen
 ## Web application for gRNA oligo DNA design
 Oligo DNA sequences for Golden Gate Assembly (GGA) can be automatically designed using our web-based tool. It runs entirely on the client side (inside your web browser) via PyScript/WebAssembly, meaning **no local installation or external tool download is required**. Your sequence data is safe and never uploaded to any external server.
 
-### 🚀 Online Access (GitHub Pages)
-You can access the application directly via the following link:
-**[👉 Run gRNA Oligo Designer Online](https://poccopen.github.io/LOBSTERS/)**
+### Online Access (GitHub Pages)
+You can access the application directly via the following link: 
+**[Run gRNA Oligo Designer Online](https://poccopen.github.io/LOBSTERS/)**
 
 *(Note: If you prefer a completely offline environment, you can also download the `gRNA_oligo_designer_for_pLOBSTERs_260525.html` file from this repository and open it directly in any web browser.)*
 
-### 🛠️ How to Use
+### How to Use
 1. Input your target sequence data into the input text box.
    - The data must be formatted as **tab-separated** lines, with a single pair of a target name and a sequence per row.
 2. Select your target **Cas system** from the radio buttons (`SpCas9`, `SaCas9`, or `enAsCas12a`).
 3. Click the **"Design oligo DNA sequences"** button.
 4. The designed forward and reverse oligo sequences will appear in the result field. You can directly copy and paste the output lines into spreadsheet applications like Microsoft Excel for oligo ordering.
 
-### 📸 Screenshot
+###  Screenshot
 Below is a screenshot example of the application interface showing the input format and designed oligo results:
 
-![Screenshot of the web application interface](gRNA_oligo_designer_for_pLOBSTERs_260525_example.png)
+![Screenshot of the web application interface](gRNA_oligo_designer_for_pLOBSTERs_260526_example.png)
