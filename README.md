@@ -43,7 +43,7 @@ Oligo DNA sequences for Golden Gate Assembly (GGA) can be automatically designed
 You can access the application directly via the following link: 
 **[Run gRNA Oligo Designer Online](https://poccopen.github.io/LOBSTERS/)**
 
-*(Note: If you prefer a completely offline environment, you can also download the `gRNA_oligo_designer_for_pLOBSTERs_260525.html` file from this repository and open it directly in any web browser.)*
+*(Note: If you prefer a completely offline environment, you can also download the `index.html` file from this repository and open it directly in any web browser.)*
 
 ### How to Use
 1. Input your target sequence data into the input text box.
